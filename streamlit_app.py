@@ -105,7 +105,7 @@ st.plotly_chart(surface_fig)
 model = joblib.load("modelo_pisos.pkl")
 
 
-st.header("Price predictor:")
+st.header("Apartment price predictor:")
 location = st.selectbox("Select the location", location_list[1:])
 surface = st.number_input("Surface (m²)", value=50)
 
@@ -136,7 +136,7 @@ if st.button("Predict"):
     
     st.write(f"Predicted price: {output_precio[0]:.2f} euros")
     
-    predictor_fig = px.scatter(data[data['Location'] == location],
+    predictor_fig = px.scatter(data[(data['Location'] == location) & (data['Type'] == 'Piso')],
                                x = 'Surface (m2)',
                                y = 'Price (€)',
                                color = 'Web',
