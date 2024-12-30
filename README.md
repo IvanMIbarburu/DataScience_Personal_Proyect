@@ -1,7 +1,7 @@
 # Real Estate Price Predictor
 ## DataScience_Personal_Proyect
 
-This is my first homemade Data Science project on my own.
+This is my first homemade Data Science project on my own. Please read this note.
 
 ## Motivation:
 Recently, my father inherited an apartment from a relative in Puente de Vallecas. After thinking about it, he decided he wanted to sell it to a family and reached out to a couple of real estate agencies. When he told me about it, I asked him if he had any idea how much the apartment was worth, and he said he had no clue. That’s why, in a couple of days, he was planning to meet with the real estate agents. So, to give him a preliminary estimate for those meetings, I decided to do some research on my own and come up with a number.
@@ -20,7 +20,7 @@ The rest of the repository files consist of PNG images, Excel files with the dat
 
 Honestly, I believe the value of this project lies in the first three steps, as the predictive model is quite simple. That being said, this project had two goals: to estimate the price of my father’s apartment and to learn how to program each of these steps. I believe I’ve achieved both.
 
-### Note
+### Important Note:
 Personally, I really enjoy using Plotly Express for visualizations because they are highly interactive. However, it’s possible that they won’t look as good on GitHub. If that’s the case, simply download the Jupyter Notebook and run it on your computer.
 
 
