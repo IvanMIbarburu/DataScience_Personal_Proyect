@@ -16,6 +16,8 @@ Additionally, I’ve included my first Streamlit application with the predictive
 
 [Real Estate Price Predictor](https://datasciencepersonalproyect-ws3fd5i6zyczfwyysxz7xb.streamlit.app/)
 
+The rest of the repository files consist of PNG images, Excel files with the data I used in the analysis, and the code of the Streamlit app.
+
 Honestly, I believe the value of this project lies in the first three steps, as the predictive model is quite simple. That being said, this project had two goals: to estimate the price of my father’s apartment and to learn how to program each of these steps. I believe I’ve achieved both.
 
 ### Note
