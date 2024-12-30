@@ -4,4 +4,3 @@ openpyxl
 joblib
 plotly.express
 scikit-learn
-pickle
